@@ -2,7 +2,10 @@ import os
 
 
 separator = os.sep
-path = f'C:Users{separator}ioneg{separator}Desktop{separator}TestFolder'
+# Enter folder path using the separator above
+# Ex: f"C:Users{separator}name{separator}folder_name"
+path = ""
+
 
 number_of_lines = 0
 is_folder = False
