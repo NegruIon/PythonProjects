@@ -4,7 +4,7 @@ import os
 separator = os.sep
 # Enter folder path using the separator above
 # Ex: f"C:Users{separator}name{separator}folder_name"
-path = "."
+path = "/Users/John/vhosts/ion_negru/python_projects/File_Show"
 
 
 number_of_lines = 0
@@ -24,9 +24,9 @@ def choose_file(dir_path, number_of_lines, is_folder_var):
                 print("  -" + name)
             else:
                 print("  |-" + name)
-        if os.path.isdir(dir_path+"\\"+name):
+        if os.path.isdir(dir_path+separator+name):
             is_folder = True
-            choose_file(dir_path+"\\"+name, number_of_lines, is_folder)
+            choose_file(dir_path+separator+name, number_of_lines, is_folder)
 
 
 print(os.path.basename(path))
