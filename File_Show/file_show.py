@@ -4,7 +4,7 @@ import os
 separator = os.sep
 # Enter folder path using the separator above
 # Ex: f"C:Users{separator}name{separator}folder_name"
-path = ""
+path = "."
 
 
 number_of_lines = 0
