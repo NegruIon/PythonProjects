@@ -2,9 +2,8 @@ import os
 
 
 separator = os.sep
-# Enter folder path using the separator above
-# Ex: f"C:Users{separator}name{separator}folder_name"
-path = "/Users/John/vhosts/ion_negru/python_projects/File_Show"
+
+path = input("Enter the path to be scanned: ")
 
 
 number_of_lines = 0
