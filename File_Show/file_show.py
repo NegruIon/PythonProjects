@@ -5,7 +5,7 @@ separator = os.sep
 
 path = input("Enter the path to be scanned: ")
 
-
+# New Comment
 number_of_lines = 0
 is_folder = False
 
